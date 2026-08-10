@@ -1,2 +1,0 @@
-# lir-turki
-bot tel

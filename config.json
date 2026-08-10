@@ -1,0 +1,93 @@
+{
+    "currencies": {
+        "usd": {
+            "name": "دلار آمریکا",
+            "source": "manual",
+            "buy": 188000,
+            "sell": 188000,
+            "symbol": "$",
+            "flag": "🇺🇸",
+            "api_key": "USD",
+            "show": true,
+            "special": ""
+        },
+        "cad": {
+            "name": "دلار کانادا",
+            "source": "api",
+            "api_key": "CAD",
+            "symbol": "CA$",
+            "flag": "🇨🇦",
+            "show": true,
+            "special": ""
+        },
+        "eur": {
+            "name": "یورو",
+            "source": "api",
+            "api_key": "EUR",
+            "symbol": "€",
+            "flag": "🇪🇺",
+            "show": true,
+            "special": ""
+        },
+        "gbp": {
+            "name": "پوند انگلیس",
+            "source": "api",
+            "api_key": "GBP",
+            "symbol": "£",
+            "flag": "🇬🇧",
+            "show": true,
+            "special": ""
+        },
+        "try": {
+            "name": "لیر ترکیه",
+            "source": "api",
+            "api_key": "TRY",
+            "symbol": "₺",
+            "flag": "🇹🇷",
+            "show": true,
+            "special": ""
+        },
+        "aed": {
+            "name": "درهم امارات",
+            "source": "manual",
+            "buy": 51400,
+            "sell": 51400,
+            "symbol": "د.إ",
+            "flag": "🇦🇪",
+            "api_key": "AED",
+            "show": true,
+            "special": ""
+        },
+        "usdt": {
+            "name": "تتر",
+            "source": "manual",
+            "buy": 187900,
+            "sell": 187900,
+            "symbol": "₮",
+            "flag": "🪙",
+            "api_key": "USDT",
+            "show": true,
+            "special": ""
+        },
+        "cny": {
+            "name": "یوان چین",
+            "source": "api",
+            "api_key": "CNY",
+            "symbol": "¥",
+            "flag": "🇨🇳",
+            "show": true,
+            "special": ""
+        }
+    },
+    "telegram": {
+        "channel_id": "@demotest1231"
+    },
+    "api": {
+        "url": "https://api.exchangerate.host/live",
+        "access_key": "62e450907cd9d381877e9ca2e4e56e8b",
+        "symbols": "USD,EUR,GBP,TRY,AED,CNY,CAD"
+    },
+    "schedule": {
+        "interval_minutes": 5
+    }
+}

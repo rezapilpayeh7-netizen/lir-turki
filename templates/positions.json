@@ -1,0 +1,132 @@
+{
+    "currencies": {
+        "try": {
+            "x_num": 184,
+            "y_num": 325,
+            "x_toman": 118,
+            "y_toman": 322,
+            "x_icon": 328,
+            "y_icon": 318,
+            "x_stop": 175,
+            "y_stop": 275,
+            "x_dash": 190,
+            "y_dash": 282,
+            "font_size": 58,
+            "sell_color": "#FFFFFF"
+        },
+        "usd": {
+            "x_num": 168,
+            "y_num": 506,
+            "x_toman": 108,
+            "y_toman": 500,
+            "x_icon": 362,
+            "y_icon": 506,
+            "x_stop": 178,
+            "y_stop": 466,
+            "x_dash": 196,
+            "y_dash": 470,
+            "font_size": 58,
+            "sell_color": "#FFFFFF"
+        },
+        "cad": {
+            "x_num": 164,
+            "y_num": 694,
+            "x_toman": 102,
+            "y_toman": 692,
+            "x_icon": 368,
+            "y_icon": 685,
+            "x_stop": 182,
+            "y_stop": 652,
+            "x_dash": 194,
+            "y_dash": 656,
+            "font_size": 58,
+            "sell_color": "#FFFFFF"
+        },
+        "gbp": {
+            "x_num": 160,
+            "y_num": 893,
+            "x_toman": 98,
+            "y_toman": 890,
+            "x_icon": 375,
+            "y_icon": 884,
+            "x_stop": 185,
+            "y_stop": 848,
+            "x_dash": 196,
+            "y_dash": 852,
+            "font_size": 58,
+            "sell_color": "#FFFFFF"
+        },
+        "eur": {
+            "x_num": 689,
+            "y_num": 322,
+            "x_toman": 629,
+            "y_toman": 318,
+            "x_icon": 880,
+            "y_icon": 308,
+            "x_stop": 688,
+            "y_stop": 275,
+            "x_dash": 706,
+            "y_dash": 280,
+            "font_size": 58,
+            "sell_color": "#FFFFFF"
+        },
+        "aed": {
+            "x_num": 698,
+            "y_num": 510,
+            "x_toman": 642,
+            "y_toman": 500,
+            "x_icon": 874,
+            "y_icon": 494,
+            "x_stop": 698,
+            "y_stop": 464,
+            "x_dash": 710,
+            "y_dash": 466,
+            "font_size": 58,
+            "sell_color": "#FFFFFF"
+        },
+        "usdt": {
+            "x_num": 692,
+            "y_num": 698,
+            "x_toman": 630,
+            "y_toman": 692,
+            "x_icon": 890,
+            "y_icon": 686,
+            "x_stop": 700,
+            "y_stop": 652,
+            "x_dash": 716,
+            "y_dash": 658,
+            "font_size": 58,
+            "sell_color": "#FFFFFF"
+        },
+        "cny": {
+            "x_num": 700,
+            "y_num": 891,
+            "x_toman": 638,
+            "y_toman": 888,
+            "x_icon": 876,
+            "y_icon": 884,
+            "x_stop": 700,
+            "y_stop": 848,
+            "x_dash": 714,
+            "y_dash": 850,
+            "font_size": 58,
+            "sell_color": "#FFFFFF"
+        }
+    },
+    "footer": {
+        "time_x": 30,
+        "time_y": 1050,
+        "font_size": 18,
+        "color": "#888888"
+    },
+    "image": {
+        "width": 1080,
+        "height": 1080
+    },
+    "icons": {
+        "stop_size": 130,
+        "dash_size": 126,
+        "toman_size": 56,
+        "stable_size": 20
+    }
+}
