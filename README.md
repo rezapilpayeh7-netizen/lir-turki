@@ -33,8 +33,9 @@
 
 ```bash
 # ۱. کلون کنید
-git clone https://github.com/yourusername/currency_bot.git
-cd currency_bot
+git clone https://github.com/rezapilpayeh7-netizen/lir-turki
+cd lir-turki
+
 
 # ۲. محیط مجازی
 python3 -m venv venv
