@@ -12,7 +12,7 @@
 - پنل مدیریت کامل با کیبورد
 - تنظیم نرخ دستی (دلار، درهم، تتر)
 - مدیریت نمایش ارزها و وضعیت فروش
-- تغییر زمانبندی و کانال
+- تغییر زمان‌بندی و کانال
 - خاموش/روشن کردن ربات
 - تاریخ شمسی و آیکون تغییرات (📈📉➖)
 - محدودیت دسترسی ادمین
@@ -24,33 +24,55 @@
 - Python 3.10+
 - python-telegram-bot
 - Pillow (تولید تصویر)
-- APScheduler (زمانبندی)
+- APScheduler (زمان‌بندی)
 - jdatetime (تاریخ شمسی)
 
 ---
 
 ## 🚀 نصب و اجرا
 
+### ۱. کلون کنید
+
 ```bash
-# ۱. کلون کنید
 git clone https://github.com/rezapilpayeh7-netizen/lir-turki
 cd lir-turki
+```
 
+### ۲. محیط مجازی
 
-# ۲. محیط مجازی
+```bash
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+```
 
-# ۳. نصب کتابخانه‌ها
+### ۳. نصب کتابخانه‌ها
+
+```bash
 pip install -r requirements.txt
+```
 
-# ۴. تنظیم .env
-BOT_TOKEN=توکن_ربات
-API_KEY=62e450907cd9d381877e9ca2e4e56e8b
+### ۴. تنظیم فایل محیطی
+
+فایل `.env.example` را به `.env` کپی کنید و مقادیر واقعی خود را جایگزین کنید:
+
+```bash
+cp .env.example .env
+```
+
+سپس `.env` را ویرایش کنید:
+
+```
+BOT_TOKEN=your_bot_token_here
+API_KEY=your_api_key_here
 CHANNEL_ID=@your_channel
-ADMIN_ID=123456789
+ADMIN_ID=your_admin_id
+```
 
-# ۵. اجرا
+> ⚠️ هرگز فایل `.env` را در گیت‌هاب آپلود نکنید.
+
+### ۵. اجرا
+
+```bash
 python3 main.py
 ```
 
@@ -59,38 +81,35 @@ python3 main.py
 ## 📱 پنل مدیریت
 
 ```
-📊 وضعیت      📈 دریافت نرخ
-💰 تنظیم نرخ دلار  💰 تنظیم نرخ درهم
-💰 تنظیم نرخ تتر  👁 مدیریت ارزها
-⏱ زمان ارسال    ⏸ خاموش
-▶ روشن          📞 پشتیبانی
+📊 وضعیت         📈 دریافت نرخ
+💰 تنظیم نرخ دلار   💰 تنظیم نرخ درهم
+💰 تنظیم نرخ تتر   👁 مدیریت ارزها
+⏱ زمان ارسال      ⏸ خاموش
+▶ روشن            📞 پشتیبانی
 ```
 
 ---
 
-## 📁 ساختار
+## 📁 ساختار پروژه
 
 ```
-currency_bot/
-├── core/            # کدهای اصلی
-├── handlers/        # زمانبندی
-├── templates/       # قالب‌ها و آیکون‌ها
-├── data/            # ذخیره نرخ‌ها
-├── logs/            # لاگ‌ها
+lir-turki/
+├── core/               # کدهای اصلی
+├── handlers/           # زمان‌بندی و مدیریت
+├── templates/          # قالب‌ها و آیکون‌ها
+├── data/               # ذخیره نرخ‌ها
+├── logs/               # لاگ‌ها (در .gitignore)
 ├── main.py
 ├── config.json
-├── .env
-└── requirements.txt
+├── requirements.txt
+├── .env.example        # نمونه فایل محیطی
+├── .gitignore          # فایل‌های نادیده‌گرفته‌شده
+├── LICENSE
+└── README.md
 ```
-
----
-
-## 👨‍💻 توسعه‌دهنده
-
-- **تلگرام:** [@Reza_Py](https://t.me/Reza_Py)
 
 ---
 
 ## 📜 مجوز
 
-MIT License
+این پروژه تحت مجوز MIT منتشر شده است. برای اطلاعات بیشتر فایل `LICENSE` را ببینید.
